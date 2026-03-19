@@ -1,0 +1,22 @@
+<launch>
+    <!-- 乌龟准备 -->
+    <node pkg="turtlesim" exec="turtlesim_node" name="t1" />
+    <node pkg="py05_exercise" exec="exer01_tf_spawn_py" name="t2" />
+    <!-- 发布坐标变换 -->
+    <node pkg="py05_exercise" exec="exer02_tf_broadcaster_py" name="tf_broadcaster1_py">
+    </node>
+    <node pkg="py05_exercise" exec="exer02_tf_broadcaster_py" name="tf_broadcaster2_py">
+        <param name="turtle_name" value="turtle2" />
+    </node>
+    <!-- 监听坐标变换 -->
+    <node pkg="py05_exercise" exec="exer03_tf_listener_py" name="tf_listener_py">
+        <param name="target_frame" value="turtle2" />
+        <param name="source_frame" value="turtle1" />
+        
+        <param name="stop_ditance" value="0.5" />
+        <param name="linear_gain" value="0.5" />
+        <param name="angular_gain" value="1.0" />
+        <param name="max_linear_speed" value="2.0" />
+        <param name="max_angular_speed" value="2.0" />
+    </node>
+</launch>
