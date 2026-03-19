@@ -51,7 +51,10 @@ ros2 run turtlesim turtle_teleop_key
 ## 项目结构
 
 ```
-src/py05_exercise/
+ros2-turtle-following/
+├── py05_exercise/ # ROS2 功能包
+├── images/ # 项目演示 GIF
+└── README.md
 ```
 
 ---
