@@ -1,0 +1,47 @@
+[0.441s] Invoking command in '/home/li/ros2_projects/turtle_following/py05_exercise': PYTHONPATH=/home/li/ros2_projects/turtle_following/build/py05_exercise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py05_exercise build --build-base /home/li/ros2_projects/turtle_following/build/py05_exercise/build install --record /home/li/ros2_projects/turtle_following/build/py05_exercise/install.log --single-version-externally-managed install_data
+[0.613s] running egg_info
+[0.613s] creating ../build/py05_exercise/py05_exercise.egg-info
+[0.613s] writing ../build/py05_exercise/py05_exercise.egg-info/PKG-INFO
+[0.613s] writing dependency_links to ../build/py05_exercise/py05_exercise.egg-info/dependency_links.txt
+[0.614s] writing entry points to ../build/py05_exercise/py05_exercise.egg-info/entry_points.txt
+[0.614s] writing requirements to ../build/py05_exercise/py05_exercise.egg-info/requires.txt
+[0.614s] writing top-level names to ../build/py05_exercise/py05_exercise.egg-info/top_level.txt
+[0.614s] writing manifest file '../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[0.615s] reading manifest file '../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[0.615s] writing manifest file '../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.615s] creating /home/li/ros2_projects/turtle_following/build/py05_exercise/build
+[0.615s] creating /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib
+[0.616s] creating /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise
+[0.616s] copying py05_exercise/exer03_tf_listener_py.py -> /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise
+[0.616s] copying py05_exercise/__init__.py -> /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise
+[0.616s] copying py05_exercise/exer01_tf_spawn_py.py -> /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise
+[0.616s] copying py05_exercise/exer02_tf_broadcaster_py.py -> /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise
+[0.616s] running install
+[0.616s] running install_lib
+[0.617s] creating /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[0.617s] copying /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise/exer03_tf_listener_py.py -> /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[0.617s] copying /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise/__init__.py -> /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[0.617s] copying /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise/exer01_tf_spawn_py.py -> /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[0.617s] copying /home/li/ros2_projects/turtle_following/build/py05_exercise/build/lib/py05_exercise/exer02_tf_broadcaster_py.py -> /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise
+[0.618s] byte-compiling /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer03_tf_listener_py.py to exer03_tf_listener_py.cpython-310.pyc
+[0.618s] byte-compiling /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/__init__.py to __init__.cpython-310.pyc
+[0.618s] byte-compiling /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer01_tf_spawn_py.py to exer01_tf_spawn_py.cpython-310.pyc
+[0.619s] byte-compiling /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise/exer02_tf_broadcaster_py.py to exer02_tf_broadcaster_py.cpython-310.pyc
+[0.619s] running install_data
+[0.619s] creating /home/li/ros2_projects/turtle_following/install/py05_exercise/share/ament_index
+[0.619s] creating /home/li/ros2_projects/turtle_following/install/py05_exercise/share/ament_index/resource_index
+[0.619s] creating /home/li/ros2_projects/turtle_following/install/py05_exercise/share/ament_index/resource_index/packages
+[0.619s] copying resource/py05_exercise -> /home/li/ros2_projects/turtle_following/install/py05_exercise/share/ament_index/resource_index/packages
+[0.619s] copying package.xml -> /home/li/ros2_projects/turtle_following/install/py05_exercise/share/py05_exercise
+[0.619s] creating /home/li/ros2_projects/turtle_following/install/py05_exercise/share/py05_exercise/launch
+[0.619s] copying launch/exer01_turtle_follow.launch.xml -> /home/li/ros2_projects/turtle_following/install/py05_exercise/share/py05_exercise/launch
+[0.619s] running install_egg_info
+[0.621s] Copying ../build/py05_exercise/py05_exercise.egg-info to /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages/py05_exercise-0.0.0-py3.10.egg-info
+[0.622s] running install_scripts
+[0.640s] Installing exer01_tf_spawn_py script to /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/py05_exercise
+[0.640s] Installing exer02_tf_broadcaster_py script to /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/py05_exercise
+[0.640s] Installing exer03_tf_listener_py script to /home/li/ros2_projects/turtle_following/install/py05_exercise/lib/py05_exercise
+[0.641s] writing list of installed files to '/home/li/ros2_projects/turtle_following/build/py05_exercise/install.log'
+[0.669s] Invoked command in '/home/li/ros2_projects/turtle_following/py05_exercise' returned '0': PYTHONPATH=/home/li/ros2_projects/turtle_following/build/py05_exercise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_projects/turtle_following/install/py05_exercise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py05_exercise build --build-base /home/li/ros2_projects/turtle_following/build/py05_exercise/build install --record /home/li/ros2_projects/turtle_following/build/py05_exercise/install.log --single-version-externally-managed install_data

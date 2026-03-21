@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py05-exercise
+Version: 0.0.0
+Summary: ROS2 TF-based turtle following project with spawn, TF broadcaster, and listener-based follower control.
+Home-page: UNKNOWN
+Maintainer: Lilyxxcccc
+Maintainer-email: 2712950900@qq.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

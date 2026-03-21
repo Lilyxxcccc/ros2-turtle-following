@@ -19,10 +19,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='li',
-    maintainer_email='li@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Lilyxxcccc',
+    maintainer_email='2712950900@qq.com',
+    description='ROS2 TF-based turtle following project with spawn, TF broadcaster, and listener-based follower control.',
+    license='Apache-2.0',
     extras_require={
         'test': [
             'pytest',
