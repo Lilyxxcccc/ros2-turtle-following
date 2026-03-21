@@ -36,7 +36,7 @@ class TurtleFrameListener(Node):
         # 创建tf监听器；
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
-        self.publisher = self.create_publisher(Twist, self.target_frame + '/cmd_vel', 1)
+        self.publisher = self.create_publisher(Twist, self.target_frame + '/cmd_vel', 10)
 
         self.timer = self.create_timer(0.1, self.on_timer)
 
@@ -44,6 +44,7 @@ class TurtleFrameListener(Node):
         
         try:
             now = rclpy.time.Time()
+            
             trans = self.tf_buffer.lookup_transform(
                 self.target_frame,
                 self.source_frame,

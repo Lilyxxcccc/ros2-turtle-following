@@ -31,11 +31,11 @@ class TurtleSpawnClient(Node):
 
         #把参数 x 填到 self.req.x
         self.req.x = self.get_parameter("x").get_parameter_value().double_value
-        #把参数 y 填到 self.req.y
+        
         self.req.y = self.get_parameter("y").get_parameter_value().double_value
-        #把参数 theta 填到 self.req.theta
+        
         self.req.theta = self.get_parameter("theta").get_parameter_value().double_value
-        #把参数 turtle_name 填到 self.req.name
+        
         self.req.name = self.get_parameter("turtle_name").get_parameter_value().string_value
 
         self.future = self.cli.call_async(self.req)
